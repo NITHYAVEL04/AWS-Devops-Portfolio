@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithya Sri Palanivel | AWS Cloud & DevOps Engineer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-orange-500 selection:text-white">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-slate-900">
+                Nithya Sri<span class="text-orange-500">.</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-orange-500 transition-colors">About</a>
+                <a href="#skills" class="hover:text-orange-500 transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-orange-500 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-orange-500 transition-colors">Projects</a>
+                <a href="#certifications" class="hover:text-orange-500 transition-colors">Certifications</a>
+                <a href="#contact" class="bg-slate-900 text-white px-4 py-2 rounded-lg hover:bg-orange-500 transition-all shadow-sm">Let's Connect</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH INTEGRATED IMAGE BLOCK -->
+    <section class="relative min-h-[85vh] flex items-center justify-center bg-gradient-to-b from-white to-slate-50 px-4 py-12">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 items-center">
+            
+            <!-- LEFT SIDE: IMAGE CONTAINER -->
+            <div class="md:col-span-4 flex justify-center order-first md:order-none">
+                <div class="relative group">
+                    <!-- Outer Decorative Accent Ring -->
+                    <div class="absolute -inset-1.5 bg-gradient-to-r from-orange-500 to-amber-500 rounded-full blur-sm opacity-25 group-hover:opacity-40 transition duration-300"></div>
+                    
+                    <!-- Circular Image Frame -->
+                    <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full border-4 border-white overflow-hidden bg-slate-200 shadow-xl">
+                        <!-- CHANGE THE FILE NAME INSIDE src="..." TO MATCH YOUR IMAGE -->
+                        <img src="profile.jpg" alt="Nithya Sri Palanivel" class="w-full h-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Nithya+Sri&background=f97316&color=fff&size=256'">
+                    </div>
+                    
+                    <!-- Tiny Floating Cloud Badge over Image -->
+                    <div class="absolute -bottom-2 -right-2 bg-slate-900 text-white p-2.5 rounded-full border-2 border-white shadow-lg flex items-center justify-center">
+                        <i class="fa-solid fa-cloud text-orange-400 text-xs"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE: HERO TEXT CONTENT -->
+            <div class="md:col-span-8 space-y-6 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 bg-orange-50 border border-orange-200 rounded-full px-4 py-1.5 text-xs font-semibold text-orange-600 shadow-xs">
+                    <i class="fa-solid fa-cloud-arrow-up animate-bounce"></i> Available for Cloud & DevOps Roles
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900">
+                    Nithya Sri Palanivel
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-600 font-medium leading-relaxed">
+                    Cloud Operations Specialist <span class="text-slate-300">|</span> AWS <span class="text-slate-300">|</span> Terraform <span class="text-slate-300">|</span> CI/CD
+                </p>
+                <p class="text-sm sm:text-base text-slate-500 max-w-xl mx-auto md:mx-0">
+                    Computer Science & Business Systems graduate and former Associate System Engineer at TCS. Passionate about automated cloud deployments, reliable platform hosting, and robust infrastructure monitoring.
+                </p>
+                
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+                    <a href="#projects" class="px-6 py-3 bg-orange-500 text-white font-medium rounded-xl shadow-md shadow-orange-500/20 hover:bg-orange-600 hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                        View Projects
+                    </a>
+                    <a href="mailto:nithyasripalanivel65@gmail.com" class="px-6 py-3 bg-white border border-slate-200 text-slate-700 font-medium rounded-xl shadow-xs hover:bg-slate-50 transition-all transform hover:-translate-y-0.5">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- QUICK STATS SNAPSHOT -->
+    <section class="bg-white border-t border-b border-slate-200 py-8">
+        <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="text-center">
+                <p class="text-2xl">🏅</p>
+                <p class="text-xs text-slate-500 mt-1 font-semibold uppercase tracking-wider">B.Tech Gold Medalist</p>
+            </div>
+            <div class="text-center">
+                <p class="text-2xl text-orange-500"><i class="fa-brands fa-aws"></i></p>
+                <p class="text-xs text-slate-500 mt-1 font-semibold uppercase tracking-wider">AWS Cloud Specialist</p>
+            </div>
+            <div class="text-center">
+                <p class="text-2xl text-blue-600"><i class="fa-solid fa-code-branch"></i></p>
+                <p class="text-xs text-slate-500 mt-1 font-semibold uppercase tracking-wider">1.3 Years at TCS</p>
+            </div>
+            <div class="text-center">
+                <p class="text-2xl text-emerald-500"><i class="fa-solid fa-cubes"></i></p>
+                <p class="text-xs text-slate-500 mt-1 font-semibold uppercase tracking-wider">IaC & Automation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-12 items-start">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">About Me</h2>
+                <p class="text-orange-500 font-semibold mt-1">My Career Narrative</p>
+            </div>
+            <div class="md:col-span-2 space-y-6 text-slate-600 leading-relaxed text-sm sm:text-base">
+                <p>
+                    With a strong foundation established during my <strong>B.Tech in Computer Science and Business Systems</strong>, I look at software systems holistically—balancing clean code architectures with robust infrastructure strategies.
+                </p>
+                <p>
+                    My practical operations journey began at <strong>Tata Consultancy Services (TCS)</strong> as an Associate System Engineer, handling Cloud infrastructure monitoring, log tracking, and systemic problem resolution. This hands-on window into Cloud systems and DevOps tools sparked my deep focus toward <strong>DevOps engineering and AWS cloud automation</strong>.
+                </p>
+                <div class="grid sm:grid-cols-2 gap-4 pt-4 text-slate-800">
+                    <div class="flex items-start gap-3 p-3 bg-white border border-slate-150 rounded-lg">
+                        <i class="fa-solid fa-shield-halved text-orange-500 mt-1"></i>
+                        <div><h4 class="font-semibold text-sm">Resilience</h4><p class="text-xs text-slate-500">Adapting and building reliable fault-tolerant architectures.</p></div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-white border border-slate-150 rounded-lg">
+                        <i class="fa-solid fa-users text-blue-500 mt-1"></i>
+                        <div><h4 class="font-semibold text-sm">Collaboration</h4><p class="text-xs text-slate-500">Effective functional cross-team coordination & synergy.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS GRID -->
+    <section id="skills" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold tracking-tight">Technical Stack & Core Strengths</h2>
+                <p class="text-slate-400 mt-2 text-sm">Targeted tools and proficiencies optimized for modern deployment lifecycles</p>
+            </div>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-slate-800 border border-slate-700 rounded-xl">
+                    <h3 class="text-orange-400 font-semibold mb-4 text-sm tracking-wider uppercase flex items-center gap-2">
+                        <i class="fa-brands fa-aws"></i> Cloud Platforms
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">AWS (EC2, S3, CloudWatch, VPC)</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-slate-800 border border-slate-700 rounded-xl">
+                    <h3 class="text-blue-400 font-semibold mb-4 text-sm tracking-wider uppercase flex items-center gap-2">
+                        <i class="fa-solid fa-infinity"></i> DevOps & IaC
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Terraform</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Docker</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Kubernetes</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Jenkins</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Git / GitHub</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-slate-800 border border-slate-700 rounded-xl">
+                    <h3 class="text-emerald-400 font-semibold mb-4 text-sm tracking-wider uppercase flex items-center gap-2">
+                        <i class="fa-solid fa-chart-line"></i> Monitoring & Ops
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Grafana</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">CloudWatch</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Log Analysis</span>
+                        <span class="bg-slate-700 text-xs px-3 py-1.5 rounded-md font-medium">Linux Ecosystem</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL TIMELINE -->
+    <section id="experience" class="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-slate-900 tracking-tight mb-12 text-center">Professional Timeline</h2>
+        <div class="relative border-l-2 border-slate-200 ml-4 md:ml-32">
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-10 top-1.5 bg-orange-500 w-7 h-7 rounded-full flex items-center justify-center text-white text-xs border-4 border-white shadow-sm">
+                    <i class="fa-solid fa-briefcase text-[10px]"></i>
+                </span>
+                <span class="absolute -left-36 top-1.5 hidden md:block text-xs font-semibold text-slate-500 text-right w-24">
+                    Sep 2024 - Dec 2025
+                </span>
+                <div class="bg-white p-6 border border-slate-200 rounded-xl shadow-xs">
+                    <span class="md:hidden block text-xs font-bold text-orange-500 mb-1">Sep 2024 - Dec 2025</span>
+                    <h3 class="text-lg font-bold text-slate-900">Associate System Engineer</h3>
+                    <p class="text-sm font-medium text-slate-600 mb-3">Tata Consultancy Services (TCS)</p>
+                    <ul class="text-xs sm:text-sm text-slate-500 list-disc list-inside space-y-1.5">
+                        <li>Managed baseline application performance and platform health metrics across infrastructure environments.</li>
+                        <li>Performed system log monitoring, validation analysis, and orchestrated incident triage protocols.</li>
+                        <li>Tracked network alerts and maintained architectural availability via observability dashboards.</li>
+                        <li>Operated within ITIL standard deployment frameworks and structural system management workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNICAL PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-slate-100 border-t border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-end justify-between mb-12 gap-4">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Technical Implementations</h2>
+                    <p class="text-sm text-slate-500 mt-1">Demonstrated validation of Cloud, Code, and Infrastructure-as-Code patterns.</p>
+                </div>
+                <a href="https://github.com/NITHYAVEL04" target="_blank" class="text-sm font-semibold text-orange-500 hover:text-orange-600 flex items-center gap-1.5">
+                    <i class="fa-brands fa-github text-base"></i> Explore GitHub Profile <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col justify-between shadow-xs group hover:shadow-md transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-3 text-orange-500">
+                            <i class="fa-solid fa-cloud text-xl"></i>
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-orange-50 text-orange-600 px-2.5 py-1 rounded-md">AWS + Terraform</span>
+                        </div>
+                        <h3 class="font-bold text-slate-900 group-hover:text-orange-500 transition-colors">AWS Static Website Hosting</h3>
+                        <p class="text-xs text-slate-500 mt-2 line-clamp-3">Automated infrastructure framework deployment model leveraging S3 static storage blocks configured entirely through deterministic declarative Terraform configurations.</p>
+                    </div>
+                    <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                        <span>IaC Focus</span>
+                        <a href="https://github.com/NITHYAVEL04" target="_blank" class="hover:text-slate-900 font-medium flex items-center gap-1">Repo <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col justify-between shadow-xs group hover:shadow-md transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-3 text-blue-500">
+                            <i class="fa-solid fa-server text-xl"></i>
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-blue-50 text-blue-600 px-2.5 py-1 rounded-md">Cloud Migration</span>
+                        </div>
+                        <h3 class="font-bold text-slate-900 group-hover:text-blue-500 transition-colors">Heart Health Cloud Migration</h3>
+                        <p class="text-xs text-slate-500 mt-2 line-clamp-3">Migrated cardiovascular analytical application stacks to AWS EC2 platforms. Configured baseline Security Group access layers, operational Ubuntu server blocks, and monitored instances via CloudWatch profiles.</p>
+                    </div>
+                    <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                        <span>Deployment Ops</span>
+                        <a href="https://github.com/NITHYAVEL04" target="_blank" class="hover:text-slate-900 font-medium flex items-center gap-1">Repo <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col justify-between shadow-xs group hover:shadow-md transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-3 text-emerald-500">
+                            <i class="fa-solid fa-brain text-xl"></i>
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded-md">Python + ML</span>
+                        </div>
+                        <h3 class="font-bold text-slate-900 group-hover:text-emerald-500 transition-colors">Cardiovascular Management Bot</h3>
+                        <p class="text-xs text-slate-500 mt-2 line-clamp-3">Python framework targeting system endpoints to compute metrics using perceptron multi-layer neural network datasets deployed over active virtual server segments.</p>
+                    </div>
+                    <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                        <span>Data Analytics</span>
+                        <a href="https://github.com/NITHYAVEL04" target="_blank" class="hover:text-slate-900 font-medium flex items-center gap-1">Repo <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS & EDUCATION -->
+    <section id="certifications" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <h3 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <i class="fa-solid fa-award text-orange-500"></i> Certifications & Credentials
+                </h3>
+                <div class="space-y-3">
+                    <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+                        <h4 class="font-semibold text-sm text-slate-900">AWS APAC Virtual Experience Simulation</h4>
+                        <p class="text-xs text-slate-500">Issued by Forage • Cloud Foundations, Operations & Infra Concepts</p>
+                    </div>
+                    <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+                        <h4 class="font-semibold text-sm text-slate-900">AI Virtual Experience Simulation</h4>
+                        <p class="text-xs text-slate-500">Issued by Vista Equity Partners • Cloud workflows and applied logic</p>
+                    </div>
+                    <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+                        <h4 class="font-semibold text-sm text-slate-900">First Prize – PEGA UAP Bootcamp</h4>
+                        <p class="text-xs text-slate-500">Achieved for premium operational workflow design and architecture pitch</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h3 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <i class="fa-solid fa-graduation-cap text-blue-500"></i> Education
+                </h3>
+                <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-orange-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider">
+                        Gold Medalist
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-base">B.Tech in Computer Science and Business Systems</h4>
+                    <p class="text-sm font-medium text-slate-600 mt-1">K. Ramakrishnan College of Engineering</p>
+                    <p class="text-xs text-slate-400 mt-4">Graduated: Class of 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM DRIVEN CONTACT -->
+    <section id="contact" class="py-20 bg-slate-900 text-white border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
+            <div class="space-y-4">
+                <h2 class="text-3xl font-bold tracking-tight">Let's Connect</h2>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Hiring managers or technical scouts looking for an analytical early-career engineer fluent across cloud operations, systemic architectures, and declarative automation configurations can reach out anytime.
+                </p>
+                <div class="space-y-3 pt-4 text-xs sm:text-sm text-slate-300">
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-envelope text-orange-400 w-4"></i> nithyasripalanivel65@gmail.com</p>
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-phone text-orange-400 w-4"></i> +91 7094829381</p>
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-orange-400 w-4"></i> Tamil Nadu, India</p>
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/xbderzgd" method="POST" class="space-y-4 text-sm">
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">Your Name</label>
+                    <input type="text" name="name" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 focus:outline-none focus:border-orange-500 text-white">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">Email Address</label>
+                    <input type="email" name="email" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 focus:outline-none focus:border-orange-500 text-white">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">Message</label>
+                    <textarea name="message" rows="4" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 focus:outline-none focus:border-orange-500 text-white"></textarea>
+                </div>
+                <button type="submit" class="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg shadow-md transition-all cursor-pointer">
+                    Send Direct Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER LINKS -->
+    <footer class="bg-slate-950 py-8 text-center text-xs text-slate-500 border-t border-slate-900">
+        <p>© 2026 Nithya Sri Palanivel. All rights reserved.</p>
+        <div class="flex justify-center gap-6 mt-3 text-sm">
+            <a href="https://github.com/NITHYAVEL04" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nithya-sri-palanivel-427440213" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
